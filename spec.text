@@ -70,4 +70,4 @@ input_string : "The last time I saw him, he was at the bar"
 input_find : "the"
 output : 2
 
-Return the number of time that the find input appears in the string input, case-insensitive.
+Return the number of time that the find input appears in the string input, case-insensitive.						
