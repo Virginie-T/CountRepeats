@@ -15,9 +15,9 @@
 
 	$app->get('/result', function() use ($app) {
 		$count_repeats_new = new CountRepeats;
-		$score = $count_repeats_new->count_repeats($_GET['string'], $_GET['find']);
+		$score = $count_repeats_new->count_repeats($_GET['string'], $_GET['word']);
 
-		return $app['twig']->render('result_score.twig', array('result' => $score, 'thestring' => $_GET['string'], 'findword' => $_GET['find']));
+		return $app['twig']->render('result_score.twig', array('result' => $score, 'the_string' => $_GET['string'], 'find_word' => $_GET['word']));
 
 	});
 
