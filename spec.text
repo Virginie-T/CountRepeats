@@ -1,0 +1,73 @@
+Counter Repeats Spec
+--------------------
+
+Spec 1
+
+input_letter : "a"
+input_find : "a"
+output : 1
+
+Return the number of time that the find input appears in the single letter input.
+
+
+Spec 2
+
+input_letters : "a b"
+input_find : "a"
+output : 1
+
+Return the number of time that the find input appears in the multi letter input.
+
+
+Spec 3 
+
+input_letters : "a a"
+input_find : "a"
+output : 2
+
+Return the number of time that the find input appears in the duplicate letter input.
+
+
+Spec 4
+
+input_letters : "a b a"
+input_find : "a"
+output : 2
+
+Return the number of time that the find input appears in the multi letter input.
+
+
+Spec 5
+
+input_word : "cat"
+input_find : "cat"
+output : 1
+
+Return the number of time that the find input appears in the single word input.
+
+
+Spec 6
+
+input_word : "cat"
+input_find : "dog"
+output : 0
+
+Return 0 if the find input is not in the input word.
+
+
+Spec 7
+
+input_string : "the last time I saw him, he was at the bar"
+input_find : "the"
+output : 2
+
+Return the number of time that the find input appears in the string input.
+
+
+Spec 8
+
+input_string : "The last time I saw him, he was at the bar"
+input_find : "the"
+output : 2
+
+Return the number of time that the find input appears in the string input, case-insensitive.
