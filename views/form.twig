@@ -6,21 +6,22 @@
 	<title>Form</title>
 
 </head>
-<body>
+<body style="background-color: #00adad;
+background-image: url(http://www.transparenttextures.com/patterns/connected.png);">
     
     <div class="container">
 
-		<h1>Welcome to the Counter</h1>
-		<p>Enter a sentence and one of the word of that sentence and our Counter will tell you how many times that word appears in your sentence.</p>
+		<h1 style="text-align : center; color : steelblue">Welcome to the Counter</h1>
+		<p style="font-size: 15px; color: lightgrey; margin-top: 10px; text-align: center">Enter a sentence and one of the word of that sentence and our Counter will tell you how many times that word appears in your sentence.</p>
 
 		<form action="/result">
-			<label for="string">Enter your sentence :</label>
-			<input type="text" name="string" id="string">
+			<label for="string" style="font-size: 20px; color: lightgrey">Enter your sentence :</label>
+			<input type="text" name="string" id="string" placeholder="BlaBlaBla" style="font-size: 15px" style="margin-right: 20px"><br>
 
-	    	<label for="word">Enter the word you want to check :</label>
-			<input type="text" name="word" id="word">
+	    	<label for="word" style="font-size: 20px; color: lightgrey">Enter the word you want to check :</label>
+			<input type="text" name="word" id="word" placeholder="word from the sentence" style="font-size: 15px"><br>
 
-			<button type='submit' class='btn btn-success'>Go!</button>
+			<button type='submit' class='btn btn-warning'>Go!</button>
 	    </form>
     </div>
 </body>

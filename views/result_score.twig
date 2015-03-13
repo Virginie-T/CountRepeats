@@ -6,12 +6,13 @@
 	<title>Result</title>
 
 </head>
-<body>
+<body style="background-color: #00adad;
+background-image: url(http://www.transparenttextures.com/patterns/connected.png);">
 
 	<div class="container">
-		<h1 style="text-align : center">Here is the result :</h1>
-		<h3>In the sentence "{{ the_string }}", the word "{{ find_word }}" appears <strong><a stylr = "color : steelblue">{{ result }}</a></strong> time(s).</h3>
-	 	<a href="/"><button class='btn btn-success'>Do it again</button></a>
+		<h1 style="text-align : center; color : steelblue">Here is the result :</h1>
+		<h3 style="color: lightgrey">In the sentence "<a style = "color : darkgrey; text-shadow: 1px 1px #000">{{ the_string }}</a>", the word "<a style = "color : darkgrey; text-shadow: 1px 1px #000">{{ find_word }}</a>" appears <strong><a style = "color : black">{{ result }}</a></strong> time(s).</h3>
+	 	<a href="/"><button class='btn btn-warning'>Do it again</button></a>
 	</div>
 
 </body>
