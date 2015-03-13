@@ -16,7 +16,7 @@ input_letters : "a b"
 input_find : "a"
 output : 1
 
-Return the number of time that the find input appears in the multi letter input.
+Return the number of time that the find input appears in the different letter input.
 
 
 Spec 3 
